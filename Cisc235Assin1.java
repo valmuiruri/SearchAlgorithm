@@ -1,19 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package cisc235assin1;
 import java.util.Arrays;
 import java.util.Random;
 /**
  *
- * @author Joe Muiruri
- * netID : 13vjm4
- * Student number: 10142147
+ * @author Valentino Muiruri
+ * Personal sort function and binary search function
  */
-public class Cisc235Assin1 {
+public class SearchAlgorithm {
     
     public static boolean AlgorithmA(int [] setS, int x){
 		int [] newSet = new int[setS.length];
@@ -95,10 +87,11 @@ public class Cisc235Assin1 {
     return randomFill();
     }
     public static void main(String[] args) {
-        //int n = 1000;
+        //n values for testing
+        int n = 1000;
         //int n = 2000;
         //int n = 5000;
-        int n = 10000;
+        //int n = 10000;
         int [] k = new int[500];
         int [] t1 = new int [n];
 
